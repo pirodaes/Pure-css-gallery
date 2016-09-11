@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+  <header>
+    <h1>Pure css Gallery</h1>
+  </header>
+
+  <div class="thumb-grid">
+    <a href="#id01">
+      <div class="thumb" style="background-image: url('test.jpg');">
+        <div class="caption">
+          <h2>Title</h2>
+          <p>
+            Description test
+          </p>
+        </div>
+      </div>
+    </a>
+    <a href="#id02">
+      <div class="thumb" style="background-image: url('test2.jpg');">
+        <div class="caption">
+          <h2>Title</h2>
+          <p>
+            Test test test test test test test test test test test test test test test test test test test test test
+          </p>
+        </div>
+      </div>
+    </a>
+    <a href="#id03">
+      <div class="thumb" style="background-image: url('test3.jpg');">
+        <div class="caption">
+          <h2>Title</h2>
+          <p>
+            teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div id="id01" class="popup" >
+    <a href="#" >
+      <img src="closebtn.png" class="closebtn" />
+    </a>
+    <div class="gallery" >
+      <img src="test.jpg" class="image" />
+    </div>
+    <div class="image-info">
+      <h3>Title</h3>
+      <p>Description test</p>
+      <a href="#" >
+        <img src="backbtn.png" class="backbtn" >
+      </a>
+      <a href="#id02" >
+        <img src="nextbtn.png" class="nextbtn" />
+      </a>
+    </div>
+  </div>
+
+  <div id="id02" class="popup" >
+    <a href="#" >
+      <img src="closebtn.png" class="closebtn" />
+    </a>
+    <div class="gallery" >
+      <img src="test2.jpg" class="image" />
+    </div>
+    <div class="image-info">
+      <h3>Title</h3>
+      <p>Test test test test test test test test test test test test test test test test test test test test test</p>
+      <a href="#id01" >
+        <img src="backbtn.png" class="backbtn" >
+      </a>
+      <a href="#id03" >
+        <img src="nextbtn.png" class="nextbtn" />
+      </a>
+    </div>
+  </div>
+
+  <div id="id03" class="popup" >
+    <a href="#" >
+      <img src="closebtn.png" class="closebtn" />
+    </a>
+    <div class="gallery" >
+      <img src="test3.jpg" class="image" />
+    </div>
+    <div class="image-info">
+      <h3>Title</h3>
+      <p>teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest </p>
+      <a href="#id02" >
+        <img src="backbtn.png" class="backbtn" >
+      </a>
+      <a href="#" >
+        <img src="nextbtn.png" class="nextbtn" />
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
